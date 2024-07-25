@@ -1,0 +1,20 @@
+[package]
+name = "demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candid = "0.10.9"
+hex = "0.4.3"
+ic-agent = "0.36.0"
+ic-cdk = "0.14.0"
+num-bigint = "0.4.5"
+num-traits = "0.2.19"
+prettytable = "0.10.0"
+rand = "0.8.5"
+serde = "1.0.203"
+serde_bytes = "0.11.15"
+serde_json = "1.0"
+sha2 = "0.10"
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4.38"
